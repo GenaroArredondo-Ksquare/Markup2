@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(31, 29, 29);
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container {
+    align-items: center;
+    align-content: center;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(3, 425px);
+    grid-template-rows: 225px;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 150px 200px;
+    border-radius: 10px;
+    height: 175px;
+    width: 400px;
+    background-color: rgb(54, 52, 52);
+}
+
+.image {
+    height: 175px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: blue;
+    background-image: url(https://rickandmortyapi.com/api/character/avatar/2.jpeg);
+    background-size: 175px 175px;
+    background-repeat: no-repeat;
+}
+
+.text {
+    height: 175px;
+    width: 250px;
+}
