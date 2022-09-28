@@ -64,7 +64,7 @@ body {
     color: aliceblue;
 }
 
-.status::before {
+.alive::before {
     content: "\2022";
     color: green;
     font-weight: bold;
@@ -73,4 +73,24 @@ body {
     width: 1em;
     margin-left: -0.95em;
     margin-top: -0.50em;
+}
+
+.dead::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    font-size: 25px;
+    display: inline-block;
+    width: 1em;
+    margin-left: -0.95em;
+    margin-top: -0.50em;
+}
+
+.location, .seen {
+    color: rgb(174, 181, 187);
+    font-size: 12px;
+}
+
+.place, .ep {
+    color: aliceblue;
 }
